@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		F6D4E4F81F29C6BF00EC06AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4E4F71F29C6BF00EC06AF /* AppDelegate.swift */; };
-		F6D4E4FA1F29C6BF00EC06AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4E4F91F29C6BF00EC06AF /* ViewController.swift */; };
-		F6D4E4FD1F29C6BF00EC06AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D4E4FB1F29C6BF00EC06AF /* Main.storyboard */; };
 		F6D4E4FF1F29C6BF00EC06AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D4E4FE1F29C6BF00EC06AF /* Assets.xcassets */; };
 		F6D4E5021F29C6BF00EC06AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D4E5001F29C6BF00EC06AF /* LaunchScreen.storyboard */; };
+		F6D4E5121F29C6F500EC06AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D4E5091F29C6F500EC06AF /* Main.storyboard */; };
+		F6D4E5131F29C6F500EC06AF /* BasePageChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4E50A1F29C6F500EC06AF /* BasePageChildViewController.swift */; };
+		F6D4E5141F29C6F500EC06AF /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4E50B1F29C6F500EC06AF /* HelloWorldViewController.swift */; };
+		F6D4E5151F29C6F500EC06AF /* LabelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4E50C1F29C6F500EC06AF /* LabelCollectionViewCell.swift */; };
+		F6D4E5161F29C6F500EC06AF /* LabelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6D4E50D1F29C6F500EC06AF /* LabelCollectionViewCell.xib */; };
+		F6D4E5171F29C6F500EC06AF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4E50E1F29C6F500EC06AF /* MainViewController.swift */; };
+		F6D4E5181F29C6F500EC06AF /* SideScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4E50F1F29C6F500EC06AF /* SideScrollViewController.swift */; };
+		F6D4E5191F29C6F500EC06AF /* SpecificBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4E5101F29C6F500EC06AF /* SpecificBaseViewController.swift */; };
+		F6D4E51A1F29C6F500EC06AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4E5111F29C6F500EC06AF /* ViewController.swift */; };
+		F6D4E51E1F29CA9600EC06AF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4E51D1F29CA9600EC06AF /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F6D4E4F41F29C6BF00EC06AF /* ScorllableTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScorllableTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D4E4F71F29C6BF00EC06AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6D4E4F91F29C6BF00EC06AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F6D4E4FC1F29C6BF00EC06AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6D4E4FE1F29C6BF00EC06AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6D4E5011F29C6BF00EC06AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6D4E5031F29C6BF00EC06AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6D4E5091F29C6F500EC06AF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F6D4E50A1F29C6F500EC06AF /* BasePageChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePageChildViewController.swift; sourceTree = "<group>"; };
+		F6D4E50B1F29C6F500EC06AF /* HelloWorldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
+		F6D4E50C1F29C6F500EC06AF /* LabelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelCollectionViewCell.swift; sourceTree = "<group>"; };
+		F6D4E50D1F29C6F500EC06AF /* LabelCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelCollectionViewCell.xib; sourceTree = "<group>"; };
+		F6D4E50E1F29C6F500EC06AF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F6D4E50F1F29C6F500EC06AF /* SideScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideScrollViewController.swift; sourceTree = "<group>"; };
+		F6D4E5101F29C6F500EC06AF /* SpecificBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificBaseViewController.swift; sourceTree = "<group>"; };
+		F6D4E5111F29C6F500EC06AF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6D4E51D1F29CA9600EC06AF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,38 @@
 		F6D4E4F61F29C6BF00EC06AF /* ScorllableTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				F6D4E51C1F29CA4200EC06AF /* CollectionBasedScroll */,
 				F6D4E4F71F29C6BF00EC06AF /* AppDelegate.swift */,
-				F6D4E4F91F29C6BF00EC06AF /* ViewController.swift */,
-				F6D4E4FB1F29C6BF00EC06AF /* Main.storyboard */,
 				F6D4E4FE1F29C6BF00EC06AF /* Assets.xcassets */,
+				F6D4E5091F29C6F500EC06AF /* Main.storyboard */,
+				F6D4E50A1F29C6F500EC06AF /* BasePageChildViewController.swift */,
+				F6D4E50B1F29C6F500EC06AF /* HelloWorldViewController.swift */,
+				F6D4E51B1F29CA1A00EC06AF /* TopCollectionViewCell */,
+				F6D4E50E1F29C6F500EC06AF /* MainViewController.swift */,
+				F6D4E50F1F29C6F500EC06AF /* SideScrollViewController.swift */,
+				F6D4E5101F29C6F500EC06AF /* SpecificBaseViewController.swift */,
+				F6D4E5111F29C6F500EC06AF /* ViewController.swift */,
 				F6D4E5001F29C6BF00EC06AF /* LaunchScreen.storyboard */,
 				F6D4E5031F29C6BF00EC06AF /* Info.plist */,
 			);
 			path = ScorllableTabBar;
+			sourceTree = "<group>";
+		};
+		F6D4E51B1F29CA1A00EC06AF /* TopCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F6D4E50C1F29C6F500EC06AF /* LabelCollectionViewCell.swift */,
+				F6D4E50D1F29C6F500EC06AF /* LabelCollectionViewCell.xib */,
+			);
+			name = TopCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		F6D4E51C1F29CA4200EC06AF /* CollectionBasedScroll */ = {
+			isa = PBXGroup;
+			children = (
+				F6D4E51D1F29CA9600EC06AF /* HomeViewController.swift */,
+			);
+			name = CollectionBasedScroll;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +164,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6D4E5121F29C6F500EC06AF /* Main.storyboard in Resources */,
 				F6D4E5021F29C6BF00EC06AF /* LaunchScreen.storyboard in Resources */,
 				F6D4E4FF1F29C6BF00EC06AF /* Assets.xcassets in Resources */,
-				F6D4E4FD1F29C6BF00EC06AF /* Main.storyboard in Resources */,
+				F6D4E5161F29C6F500EC06AF /* LabelCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,22 +178,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6D4E4FA1F29C6BF00EC06AF /* ViewController.swift in Sources */,
 				F6D4E4F81F29C6BF00EC06AF /* AppDelegate.swift in Sources */,
+				F6D4E5191F29C6F500EC06AF /* SpecificBaseViewController.swift in Sources */,
+				F6D4E5131F29C6F500EC06AF /* BasePageChildViewController.swift in Sources */,
+				F6D4E5141F29C6F500EC06AF /* HelloWorldViewController.swift in Sources */,
+				F6D4E5151F29C6F500EC06AF /* LabelCollectionViewCell.swift in Sources */,
+				F6D4E51E1F29CA9600EC06AF /* HomeViewController.swift in Sources */,
+				F6D4E5181F29C6F500EC06AF /* SideScrollViewController.swift in Sources */,
+				F6D4E51A1F29C6F500EC06AF /* ViewController.swift in Sources */,
+				F6D4E5171F29C6F500EC06AF /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F6D4E4FB1F29C6BF00EC06AF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F6D4E4FC1F29C6BF00EC06AF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F6D4E5001F29C6BF00EC06AF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -302,6 +342,7 @@
 				F6D4E5081F29C6BF00EC06AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
