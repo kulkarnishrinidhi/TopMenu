@@ -20,6 +20,10 @@
 		F6D4E5191F29C6F500EC06AF /* SpecificBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4E5101F29C6F500EC06AF /* SpecificBaseViewController.swift */; };
 		F6D4E51A1F29C6F500EC06AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4E5111F29C6F500EC06AF /* ViewController.swift */; };
 		F6D4E51E1F29CA9600EC06AF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4E51D1F29CA9600EC06AF /* HomeViewController.swift */; };
+		F6D4E5231F29D0BC00EC06AF /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4E5211F29D0BC00EC06AF /* MainCollectionViewCell.swift */; };
+		F6D4E5241F29D0BC00EC06AF /* MainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6D4E5221F29D0BC00EC06AF /* MainCollectionViewCell.xib */; };
+		F6D4E5271F29D52000EC06AF /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4E5261F29D52000EC06AF /* TabBarViewController.swift */; };
+		F6D4E5291F29D68000EC06AF /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4E5281F29D68000EC06AF /* MainCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		F6D4E5101F29C6F500EC06AF /* SpecificBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificBaseViewController.swift; sourceTree = "<group>"; };
 		F6D4E5111F29C6F500EC06AF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6D4E51D1F29CA9600EC06AF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F6D4E5211F29D0BC00EC06AF /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		F6D4E5221F29D0BC00EC06AF /* MainCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainCollectionViewCell.xib; sourceTree = "<group>"; };
+		F6D4E5261F29D52000EC06AF /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		F6D4E5281F29D68000EC06AF /* MainCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +108,20 @@
 			isa = PBXGroup;
 			children = (
 				F6D4E51D1F29CA9600EC06AF /* HomeViewController.swift */,
+				F6D4E5251F29D12400EC06AF /* MainCell */,
+				F6D4E5261F29D52000EC06AF /* TabBarViewController.swift */,
+				F6D4E5281F29D68000EC06AF /* MainCollectionViewController.swift */,
 			);
 			name = CollectionBasedScroll;
+			sourceTree = "<group>";
+		};
+		F6D4E5251F29D12400EC06AF /* MainCell */ = {
+			isa = PBXGroup;
+			children = (
+				F6D4E5211F29D0BC00EC06AF /* MainCollectionViewCell.swift */,
+				F6D4E5221F29D0BC00EC06AF /* MainCollectionViewCell.xib */,
+			);
+			name = MainCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +187,7 @@
 				F6D4E5121F29C6F500EC06AF /* Main.storyboard in Resources */,
 				F6D4E5021F29C6BF00EC06AF /* LaunchScreen.storyboard in Resources */,
 				F6D4E4FF1F29C6BF00EC06AF /* Assets.xcassets in Resources */,
+				F6D4E5241F29D0BC00EC06AF /* MainCollectionViewCell.xib in Resources */,
 				F6D4E5161F29C6F500EC06AF /* LabelCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,11 +200,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6D4E4F81F29C6BF00EC06AF /* AppDelegate.swift in Sources */,
+				F6D4E5291F29D68000EC06AF /* MainCollectionViewController.swift in Sources */,
 				F6D4E5191F29C6F500EC06AF /* SpecificBaseViewController.swift in Sources */,
+				F6D4E5271F29D52000EC06AF /* TabBarViewController.swift in Sources */,
 				F6D4E5131F29C6F500EC06AF /* BasePageChildViewController.swift in Sources */,
 				F6D4E5141F29C6F500EC06AF /* HelloWorldViewController.swift in Sources */,
 				F6D4E5151F29C6F500EC06AF /* LabelCollectionViewCell.swift in Sources */,
 				F6D4E51E1F29CA9600EC06AF /* HomeViewController.swift in Sources */,
+				F6D4E5231F29D0BC00EC06AF /* MainCollectionViewCell.swift in Sources */,
 				F6D4E5181F29C6F500EC06AF /* SideScrollViewController.swift in Sources */,
 				F6D4E51A1F29C6F500EC06AF /* ViewController.swift in Sources */,
 				F6D4E5171F29C6F500EC06AF /* MainViewController.swift in Sources */,

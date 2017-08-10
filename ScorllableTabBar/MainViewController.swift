@@ -10,15 +10,19 @@ import UIKit
 
 class MainPageViewController: UIPageViewController,UIPageViewControllerDelegate,UIPageViewControllerDataSource {
     
-    
-    
     weak var informingDelegate : MainPageViewControllerDelegate?
 
     var pages = [BasePageChildViewController]()
     var currentIndex = 0
     
+    required init?(coder: NSCoder) {
+        super.init(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let page6 = storyboard.instantiateViewController(withIdentifier: "helloWorld") as! HelloWorldViewController

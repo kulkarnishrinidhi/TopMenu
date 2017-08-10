@@ -9,7 +9,7 @@
 import UIKit
 
 class SideScrollViewController: UIViewController {
-    
+
     var highlightView = UIView()
     weak var delegate : SideScrollViewControllerDelegate?
     
